@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     private var geolocationOrigin: String? = null
 
     companion object {
-        private const val TARGET_URL = "http://103.210.69.56:8100"
+        private const val TARGET_URL = "http://202.155.94.128:8100/home"
     }
 
     private val locationPermissionLauncher = registerForActivityResult(
